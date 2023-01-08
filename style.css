@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Segoe UI", sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+    width: 400px;
+    height: 400px;
+    max-width: 90vw;
+    max-height: 90vw;
+    border: 1px solid red;
+}
+.grid div {
+    background-color: white;
+    outline: 1px solid black;
+}
+.grid .circle {
+    background-color: blue;
+    outline: 1px solid black;
+}
